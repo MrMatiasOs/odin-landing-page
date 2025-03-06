@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Header Section -->
+        <nav>
+            <div class="logo">
+                <h1>
+                    Header Logo
+                </h1>
+            </div>
+            <div class="main_nav">
+                <ul>
+                    <li>
+                        <a href="#">
+                            header link one
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            header link two
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            header link three
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+         <!-- Hero Section -->
+        <div class="hero_section">
+            <div class="hero_text">
+                <div class="hero_header_txt">
+                    <h3>
+                        This website is awesome
+                    </h3>
+                    <p>
+                        This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast
+                    </p>
+
+                </div>
+                <div class="hero_cta">
+                    <input type="button" value="Sign up" class="hero_btn">
+                </div>
+            </div>
+            <div class="hero_img">
+                <p>
+                    this is a placeholder for an image
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Info Section -->
+
+<section class="information">
+    <div class="information_title">
+        <h3>
+            Some random information.
+        </h3>
+    </div>
+    <div class="information_items">
+    <article>
+        <div class="box">
+
+        </div>
+        <p>
+            this is some subtext under an illustration or image.
+        </p>
+    </article>
+    <article>
+        <div class="box">
+
+        </div>
+        <p>
+            this is some subtext under an illustration or image.
+        </p>
+    </article>
+    <article>
+        <div class="box">
+
+        </div>
+        <p>
+            this is some subtext under an illustration or image.
+        </p>
+    </article>
+    <article>
+        <div class="box">
+
+        </div>
+        <p>
+            this is some subtext under an illustration or image.
+        </p>
+    </article>
+</div>
+</section>
+<!-- Quote Section -->
+<section class="quote">
+    <div class="quote_container">
+    <div class="quote_text">
+        <p>
+            This is an inspiring quote, or a testmonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.
+        </p>
+    </div>
+    <div class="quote_author">
+        <p>
+            - Thor, God of Thunder
+        </p>
+    </div>
+</div>
+</section>
+  <!-- Call to Action Section -->
+<section class="cta">
+    <div class="cta_container">
+        <div class="cta_txt">
+            <h3>
+                Call to action! It's time!
+            </h3>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <input type="button" value="Sign up" class="cta">
+    </div>
+</section>
+<!-- Footer  -->
+<footer>
+    <p id="footer-year">
+        Copyright &copy; The Odin Project <span id="year"></span>
+    </p>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
